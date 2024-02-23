@@ -38,7 +38,7 @@ x0 = 0
 t = data[:, 2].T
 y = data[:, 1].T
 u = data[:, 0].T
-t_new = np.linspace(0, 17.5,117)
+t_new = np.linspace(0, 17.5, 117)
 
 graficar(t, y, u, 'TClab')
 # %%Recortar los datos
